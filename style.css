@@ -1,0 +1,120 @@
+                /* ******************* Custom Properties************** */
+                
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: content-box;
+                }
+                
+                html {
+                    box-sizing: border-box;
+                    font-family: var(--font);
+                    font-size: 25px;
+                    scroll-behavior: smooth;
+                }
+                
+                *::after,
+                *::before {
+                    box-sizing: inherit;
+                }
+                
+                .logo {
+                    width: 900px;
+                    padding-right: 150;
+                    padding-left: 10px;
+                    float: left;
+                    margin-top: 10px;
+                    /* width: 600px; */
+                    --
+                }
+                
+                img {
+                    float: left;
+                    margin-block-end: 900px;
+                    margin-left: 20px;
+                    /* ****inline-size: 10px;**** */
+                }
+                
+                .inicio {
+                    background-color: blue;
+                    padding-inline-start: 700%;
+                    border-block-start: 20%;
+                    margin-block-start: 20px;
+                }
+                
+                .redes {
+                    margin: right;
+                    /*margin-block-start: 20px;*/
+                    margin-top: 40px;
+                    width: 170;
+                    height: 70;
+                }
+                
+                #menu {
+                    background-color: #370ca3;
+                    height: 70px;
+                    width: 150;
+                }
+                
+                .cat {
+                    block-size: 300;
+                    width: 100;
+                }
+                
+                */ .foto1 {
+                    margin-left: 2px;
+                    inline-size: 800;
+                    margin-right: 300px;
+                    border: 20px solid black;
+                }
+                
+                #foto1 {
+                    border-top-left-radius: 250px;
+                    border-top-right-radius: 250px;
+                    border-bottom-right-radius: 250px;
+                    border-bottom-left-radius: 250px;
+                }
+                
+                .foto1 {
+                    height: 200px;
+                    width: 200px;
+                    margin-bottom: 450;
+                    margin-top: 200px;
+                }
+                
+                .contenedor {
+                    background-image: scr("imagenes/35f04a68-2441-4a23-a813-7043a112a3b4.jpg");
+                    background-position: 25% 25%;
+                }
+                
+                #imagen-cambiante {
+                    min-height: 290px;
+                    min-width: 290px;
+                    background: url "imagenes/JuliioCaraballoFOTO.jpg" no-repeat;
+                }
+                
+                #imagen-cambiante:hover {
+                    background: url"imagenes/JuliioCaraballoFOTO.jpg no-repeat;"
+                }
+                
+                body {
+                    background: #9f8ccf;
+                }
+                
+                .contenedor {
+                    position: relative;
+                    height: 290px;
+                    width: 290px;
+                    margin: 50px 20px;
+                    float: left;
+                }
+                
+                .contenedor img {
+                    position: absolute;
+                    left: 10;
+                    transition: opacity 1.5s ease-in-out;
+                }
+                
+                .contenedor img.top:hover {
+                    opacity: 0;
+                }
